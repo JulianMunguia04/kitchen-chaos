@@ -15,13 +15,19 @@ public class Player : MonoBehaviour
         Vector2 inputVector = gameInput.GetMovementVectorNormalized();
 
         Vector3 movDir = new Vector3(inputVector.x, 0f, inputVector.y);
-        transform.position += movDir * moveSpeed * Time.deltaTime;
+
+        float playerSize = .7f;
+        bool canMove = !Physics.Raycast(transform.position, movDir, playerSize);
+        if (canMove)
+        {
+            transform.position += movDir * moveSpeed * Time.deltaTime;
+        }
 
         isWalking = movDir != Vector3.zero;
 
         //Rotating
         transform.forward = Vector3.Slerp(transform.forward, movDir, Time.deltaTime * rotateSpeed);
-        Debug.Log(inputVector);
+        //Debug.Log(inputVector);
     }
 
     public bool IsWalking()
