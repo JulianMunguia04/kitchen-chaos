@@ -27,7 +27,7 @@ public class Player : MonoBehaviour
             //Cannnot move towards moveDir
 
             //Attempt only x movement
-            Vector3 movDirX = new Vector3(movDir.x, 0, 0);
+            Vector3 movDirX = new Vector3(movDir.x, 0, 0).normalized;
             canMove = !Physics.CapsuleCast(transform.position, transform.position + Vector3.up * playerHeight,
                                             playerRadius, movDirX, moveDistance);
             if (canMove)
@@ -39,7 +39,7 @@ public class Player : MonoBehaviour
             {
                 //Cannot move only on the X
                 //Attempt only Z movement
-                Vector3 movDirZ = new Vector3(0, 0, movDir.z);
+                Vector3 movDirZ = new Vector3(0, 0, movDir.z).normalized;
                 canMove = !Physics.CapsuleCast(transform.position, transform.position + Vector3.up * playerHeight,
                                                 playerRadius, movDirZ, moveDistance);
                 if (canMove)
