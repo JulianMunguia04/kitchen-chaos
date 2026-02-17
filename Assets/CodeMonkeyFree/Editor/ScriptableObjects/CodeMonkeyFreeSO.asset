@@ -14,39 +14,39 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.01
   subtype: kitchenchaos
-  lastShownTimestamp: 1769382101
+  lastShownTimestamp: 1771283261
   lastUpdateResponse:
     version: 1.01
     versionUrl: https://unitycodemonkey.com
-  checkedLastUpdateTimestamp: 1769382101
+  checkedLastUpdateTimestamp: 1771283261
   lastQOTDResponse:
-    questionId: 265
-    questionText: What does Normalizing a Vector do?
-    answerA: Modifies its x,y,z to get a magnitude of 1
-    answerB: Invert its x,y,z
-    answerC: Flatten the z
-    answerD: 
+    questionId: 272
+    questionText: Which namespace do we need to use File.WriteAllText()?
+    answerA: using System;
+    answerB: using UnityEngine;
+    answerC: using System.IO;
+    answerD: using UnityEngine.UI;
     answerE: 
-  lastQotdTimestamp: 1769382101
+  lastQotdTimestamp: 1771283261
   lastDynamicHeaderResponse:
     topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/gameDevReport_2.png
     topText: Stay up to date with the latest in Game Dev straight to your inbox!
     topLink: gamedevreport
     bottomText: My 10+ Years of C# Knowledge in 1 Course!
     bottomLink: csharpcourse
-  lastDynamicHeaderTimestamp: 1769382101
+  lastDynamicHeaderTimestamp: 1771283261
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/freecourses">Check out all my FREE courses!
       Click here!</a>
-  websiteLatestMessageTimestamp: 1769382101
+  websiteLatestMessageTimestamp: 1771283261
   websiteLatestVideos:
     videos:
-    - youTubeId: ZxPFiJgEQT0
-      title: TOP 10 NEW Systems and Tools JANUARY 2026! | Unity Asset Store
-    - youTubeId: 4ZcETvXRfl0
-      title: Roadmaps for Game Dev SUCCESS in 2026! (Beginner, Intermediate and Marketing)
-    - youTubeId: 3hrhAS-q3Z0
-      title: TOP 10 FREE NEW Assets JANUARY 2026!
-    - youTubeId: cWKA_FTprj0
-      title: TOP 10 NEW Games, Made with Unity! (DECEMBER 2025)
-  websiteLatestVideosTimestamp: 1769382101
+    - youTubeId: cYM059zGSrs
+      title: 100 Steam Game Marketing Questions Answered to help you find SUCCESS!
+    - youTubeId: PBDBKTwZI8Y
+      title: TOP 10 FREE NEW Assets FEBRUARY 2026!
+    - youTubeId: Vb5BZu7TOIk
+      title: 8 QUICK Game Dev Tips for SUCCESS!
+    - youTubeId: 4cG_gdjQ4no
+      title: TOP 10 NEW Games, Made with Unity! (JANUARY 2026)
+  websiteLatestVideosTimestamp: 1771283261
