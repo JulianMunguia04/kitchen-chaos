@@ -6,8 +6,16 @@ public class GameInput : MonoBehaviour
     private void Awake()
     {
         playerInputActions = new PlayerInputActions();
-        playerInputActions.Player.Enable(); 
+        playerInputActions.Player.Enable();
+
+        playerInputActions.Player.Interact.performed += Interact_performed;
     }
+
+    private void Interact_performed(UnityEngine.InputSystem.InputAction.CallbackContext obj)
+    {
+        Debug.Log(obj);
+    }
+
     public Vector2 GetMovementVectorNormalized()
     {
         //Vector2 inputVector = new Vector2(0, 0);
