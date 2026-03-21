@@ -761,6 +761,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1537110901 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -6309407688135317270, guid: ae5fb492e97b3d04cb33fc173e3f76a9, type: 3}
+  m_PrefabInstance: {fileID: 6950571735125832535}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae619eab7b941bf42b0d07ca43623213, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClearCounter
 --- !u!1 &1553275085
 GameObject:
   m_ObjectHideFlags: 0
@@ -1112,6 +1123,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8750668001845807598, guid: ae5fb492e97b3d04cb33fc173e3f76a9, type: 3}
+      propertyPath: clearCounter
+      value: 
+      objectReference: {fileID: 1537110901}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
