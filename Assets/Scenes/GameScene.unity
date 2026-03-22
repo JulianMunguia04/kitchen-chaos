@@ -761,6 +761,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1408212223 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4577027925122551956, guid: ae5fb492e97b3d04cb33fc173e3f76a9, type: 3}
+  m_PrefabInstance: {fileID: 1978010829}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1537110901 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: -6309407688135317270, guid: ae5fb492e97b3d04cb33fc173e3f76a9, type: 3}
@@ -953,6 +958,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -6309407688135317270, guid: ae5fb492e97b3d04cb33fc173e3f76a9, type: 3}
+      propertyPath: tomatoPrefab
+      value: 
+      objectReference: {fileID: 3364696806099539137, guid: 421165e652271344f9bd31a77dada5a5, type: 3}
+    - target: {fileID: -6309407688135317270, guid: ae5fb492e97b3d04cb33fc173e3f76a9, type: 3}
+      propertyPath: counterTopPoint
+      value: 
+      objectReference: {fileID: 1408212223}
+    - target: {fileID: -6309407688135317270, guid: ae5fb492e97b3d04cb33fc173e3f76a9, type: 3}
+      propertyPath: kitchenObjectSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 7b54d97afdbd4254aa0eea74c3dad9ba, type: 2}
     - target: {fileID: 1144177578386349595, guid: ae5fb492e97b3d04cb33fc173e3f76a9, type: 3}
       propertyPath: m_Name
       value: ClearCounter (1)
@@ -1079,6 +1096,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -6309407688135317270, guid: ae5fb492e97b3d04cb33fc173e3f76a9, type: 3}
+      propertyPath: kitchenObjectSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 0ba326a7538b0fd479eb7feb1a809c0b, type: 2}
     - target: {fileID: 1144177578386349595, guid: ae5fb492e97b3d04cb33fc173e3f76a9, type: 3}
       propertyPath: m_Name
       value: ClearCounter
