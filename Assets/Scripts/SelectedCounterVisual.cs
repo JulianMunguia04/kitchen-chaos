@@ -15,10 +15,10 @@ public class SelectedCounterVisual : MonoBehaviour
     {
         if (e.selectedCounter == clearCounter) {
             Show();
-            Debug.Log("Show " + clearCounter);
+            //Debug.Log("Show " + clearCounter);
         } else {
             Hide();
-            Debug.Log("Hide " + clearCounter);
+            //Debug.Log("Hide " + clearCounter);
         }
     }
 
