@@ -1,7 +1,7 @@
 using UnityEditor.AdaptivePerformance.Editor;
 using UnityEngine;
 
-public class ClearCounter : MonoBehaviour
+public class ClearCounter : MonoBehaviour, IKitchenObjectParent
 {
 
     [SerializeField] private KitchenObjectSO kitchenObjectSO;
@@ -22,7 +22,7 @@ public class ClearCounter : MonoBehaviour
         }
     }
 
-    public void Interact()
+    public void Interact(Player player)
     {
         if (kitchenObject == null)
         {
@@ -33,6 +33,8 @@ public class ClearCounter : MonoBehaviour
         }
         else
         {
+            //Give object to player
+            kitchenObject.SetClearCounter(player);
             Debug.Log(kitchenObject.GetClearCounter());
         }
     }
