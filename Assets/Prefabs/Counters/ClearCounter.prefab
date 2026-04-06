@@ -9,9 +9,21 @@ PrefabInstance:
     m_TransformParent: {fileID: 1748045358812870943}
     m_Modifications:
     - target: {fileID: 923813915454441321, guid: 0004cb1e11ad014419b943c7da960724, type: 3}
+      propertyPath: baseCounter
+      value: 
+      objectReference: {fileID: 1658904871216580556}
+    - target: {fileID: 923813915454441321, guid: 0004cb1e11ad014419b943c7da960724, type: 3}
       propertyPath: clearCounter
       value: 
       objectReference: {fileID: 1658904871216580556}
+    - target: {fileID: 923813915454441321, guid: 0004cb1e11ad014419b943c7da960724, type: 3}
+      propertyPath: visualGameObjectArray.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 923813915454441321, guid: 0004cb1e11ad014419b943c7da960724, type: 3}
+      propertyPath: 'visualGameObjectArray.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8498406137047388340}
     - target: {fileID: 3984833892277163771, guid: 0004cb1e11ad014419b943c7da960724, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -92,6 +104,11 @@ PrefabInstance:
 --- !u!4 &4579716980941371216 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4589716710238282923, guid: 0004cb1e11ad014419b943c7da960724, type: 3}
+  m_PrefabInstance: {fileID: 17908105479771131}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8498406137047388340 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8489276541531669327, guid: 0004cb1e11ad014419b943c7da960724, type: 3}
   m_PrefabInstance: {fileID: 17908105479771131}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2622303554533292596

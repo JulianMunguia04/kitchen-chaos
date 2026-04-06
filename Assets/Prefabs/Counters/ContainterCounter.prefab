@@ -193,16 +193,32 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 1a0afd856a35421469b28b916116fd9c, type: 2}
     m_RemovedComponents:
     - {fileID: 6289625630049244101, guid: 9a9137fa2b035d34e881701d2c178192, type: 3}
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 5261771210811040880, guid: 9a9137fa2b035d34e881701d2c178192, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4589716710238282922, guid: 9a9137fa2b035d34e881701d2c178192, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5186177012982950071}
   m_SourcePrefab: {fileID: 100100000, guid: 9a9137fa2b035d34e881701d2c178192, type: 3}
+--- !u!1 &2836720714010323233 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8143070647044102886, guid: 9a9137fa2b035d34e881701d2c178192, type: 3}
+  m_PrefabInstance: {fileID: 6223959195837445063}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &4189696789243152040 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7816906318471787887, guid: 9a9137fa2b035d34e881701d2c178192, type: 3}
+  m_PrefabInstance: {fileID: 6223959195837445063}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5960798185506815180 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 353237590725857035, guid: 9a9137fa2b035d34e881701d2c178192, type: 3}
+  m_PrefabInstance: {fileID: 6223959195837445063}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6283546784558118698 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 102550813385737453, guid: 9a9137fa2b035d34e881701d2c178192, type: 3}
   m_PrefabInstance: {fileID: 6223959195837445063}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &7633041641561380716 stripped
@@ -227,8 +243,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0448a2bca1728d24c9f663bfb64dcebb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectedCounterVisual
-  clearCounter: {fileID: 0}
-  visualGameObject: {fileID: 4189696789243152040}
+  baseCounter: {fileID: 9075417940160782797}
+  visualGameObjectArray:
+  - {fileID: 4189696789243152040}
+  - {fileID: 2836720714010323233}
+  - {fileID: 5960798185506815180}
+  - {fileID: 6283546784558118698}
 --- !u!1001 &6300213156831696655
 PrefabInstance:
   m_ObjectHideFlags: 0
