@@ -7,7 +7,13 @@ public class BaseCounter: MonoBehaviour, IKitchenObjectParent
 
     public virtual void Interact(Player player)
     {
+        Debug.LogError("BaseCounter.Interact() was called. This should be overwritten in the child class.");
     }
+    public virtual void InteractAlternate(Player player)
+    {
+        Debug.LogError("BaseCounter.Interact() was called. This should be overwritten in the child class.");
+    }
+
     public Transform GetKitchenObjectFollowTransform()
     {
         return counterTopPoint;

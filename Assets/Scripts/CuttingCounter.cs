@@ -31,4 +31,12 @@ public class CuttingCounter : BaseCounter
             }
         }
     }
+
+    public override void InteractAlternate(Player player)
+    {
+        if (HasKitchenObject())
+        {
+            //There is a Kitchen Object here
+        }
+    }
 }
