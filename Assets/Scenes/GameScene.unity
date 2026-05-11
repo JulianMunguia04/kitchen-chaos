@@ -425,6 +425,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7294650390133987977, guid: 503869b6730960b4d938cb2300094285, type: 3}
+      propertyPath: cutKitchenObjectSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 99cc34a6e9ebe9e498fcba98f9566b96, type: 2}
     - target: {fileID: 7634417587618644542, guid: 503869b6730960b4d938cb2300094285, type: 3}
       propertyPath: m_IsActive
       value: 0

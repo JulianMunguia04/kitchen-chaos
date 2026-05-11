@@ -2,8 +2,10 @@ using UnityEngine;
 
 public class CuttingCounter : BaseCounter
 {
+    [SerializeField] private KitchenObjectSO cutKitchenObjectSO;
     public override void Interact(Player player)
     {
+
         if (!HasKitchenObject())
         {
             // There is not a KitchenObject here
@@ -37,6 +39,9 @@ public class CuttingCounter : BaseCounter
         if (HasKitchenObject())
         {
             //There is a Kitchen Object here
+            GetKitchenObject().DestroySelf();
+
+            KitchenObject.SpawnKitchenObject(cutKitchenObjectSO, this);
         }
     }
 }
