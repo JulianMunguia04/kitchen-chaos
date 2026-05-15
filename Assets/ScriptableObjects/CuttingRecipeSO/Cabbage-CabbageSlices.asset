@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3f754439f6c66c7439862527eac33398, type: 3}
-  m_Name: Tomato-TomatoSlices
+  m_Name: Cabbage-CabbageSlices
   m_EditorClassIdentifier: Assembly-CSharp::CuttingRecipeSO
-  input: {fileID: 11400000, guid: 0ba326a7538b0fd479eb7feb1a809c0b, type: 2}
-  output: {fileID: 11400000, guid: 99cc34a6e9ebe9e498fcba98f9566b96, type: 2}
+  input: {fileID: 11400000, guid: cbc9c746b9d222b46b239419a779320b, type: 2}
+  output: {fileID: 11400000, guid: 4906a72112cfc6847a8736dbec1821a2, type: 2}
