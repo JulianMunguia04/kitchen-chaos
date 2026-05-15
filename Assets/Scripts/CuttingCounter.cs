@@ -19,7 +19,7 @@ public class CuttingCounter : BaseCounter
             }
             else
             {
-                //Player not carrying anything
+                //Player is not carrying anything
             }
         }
         else
